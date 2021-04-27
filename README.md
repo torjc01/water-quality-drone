@@ -34,7 +34,7 @@ A water quality monitoring drone to be deployed on lake surfaces.
 The block diagram was the result of sessions brainstorming about the possibilities and the requisites analysed for Lake Sergent's needs. 
 
 <p align="center">
-  <img src="images/Brainstorming.jpg" label="Brainstorming" width="1000"/>
+  <img src="images/brainstorm.jpg" label="Brainstorming" width="1000"/>
   <br>
   <b>Block diagram</b>
 </p>
