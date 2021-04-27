@@ -1,7 +1,10 @@
 [![img](https://img.shields.io/badge/Lifecycle-Experimental-339999)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-
+---
+[[Version Française](README_fr_CA.md)]
 # Water Quality Drone
+
+
 
 A water quality monitoring drone to be deployed on lake surfaces.
 
