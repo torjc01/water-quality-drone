@@ -26,6 +26,21 @@ A water quality monitoring drone to be deployed on lake surfaces.
 - Oxygen reduction potential (ORP)
 - Clorophyl data (algae)
 
+
+## Brainstorming
+
+### Block diagram 
+
+The block diagram was the result of sessions brainstorming about the possibilities and the requisites analysed for Lake Sergent's needs. 
+
+<p align="center">
+  <img src="images/Brainstorming.jpg" label="Brainstorming" width="1000"/>
+  <br>
+  <b>Block diagram</b>
+</p>
+
+Edit this draft into a working diagram in a drawing tool.
+
 ## Technological platforms 
 ### JALC Boat 
 
