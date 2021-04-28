@@ -42,11 +42,29 @@ The block diagram was the result of sessions brainstorming about the possibiliti
 Edit this draft into a working diagram in a drawing tool.
 
 ## Technological platforms 
+### Ocean Data Buoy Project 
+
+What is it? 
+
+It started as a small/cheap 3D printed buoy that could measure wave height and period data on the ocean, and evolved to who else could benefit from small/cheap wave buoys and what would happen if suddenly this technology could be used to network a bunch of these floating buoys together to get high fidelity wave data for areas of interest
+
+We are going to use the buoy as a stationary platform to collect data on site on a long term basis. Placed in a precisely pinpointed location, the buoy will embbed all the instruments available to the project. 
+
+Refs:
+
+https://opensourceoceanweatherbuoy.wordpress.com/
+
+https://www.thingiverse.com/thing:2070980
+
 ### JALC Boat 
+
+What is it? 
 
 JALC Boat is a project aimed to create an aquatic robot educational platform. Its components are 100% free and designed with 3D printing for anyone to create, adapt or modify.
 
-USV Platform 
+The JALC boat is a USV Platform that will be used in exploratory measurement taking. In conjuction with ROS algorithms it will move along a predetermined route stopping and collecting data at specific mapped waypoints. 
+
+The GPS route can be programmed via GoogleMaps API, or via the device's programming interface. 
 
 Dimensions: 28 x 24 x 28cm (W x L x H)
 
@@ -75,18 +93,9 @@ https://www.instructables.com/JALC-Boat-Aquatic-Robot-Platform/
 https://www.thingiverse.com/thing:470370
 
 
-### Ocean Data Buoy Project 
-
-It started as a small/cheap 3D printed buoy that could measure wave height and period data on the ocean, and evolved to who else could benefit from small/cheap wave buoys and what would happen if suddenly this technology could be used to network a bunch of these floating buoys together to get high fidelity wave data for areas of interest
-
-
-Refs:
-
-https://opensourceoceanweatherbuoy.wordpress.com/
-
-https://www.thingiverse.com/thing:2070980
-
 ### ROS 
+
+What is it? 
 
 The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications. From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what you need for your next robotics project. And it's all open source.
 
