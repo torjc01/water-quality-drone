@@ -68,14 +68,23 @@ Buoyancy force +- 28.6 N
 
 HC06Bluetooth : max range 20m
 
-Ref: https://www.instructables.com/JALC-Boat-Aquatic-Robot-Platform/ 
+Refs: 
+
+https://www.instructables.com/JALC-Boat-Aquatic-Robot-Platform/ 
+
+https://www.thingiverse.com/thing:470370
+
 
 ### Ocean Data Buoy Project 
 
 It started as a small/cheap 3D printed buoy that could measure wave height and period data on the ocean, and evolved to who else could benefit from small/cheap wave buoys and what would happen if suddenly this technology could be used to network a bunch of these floating buoys together to get high fidelity wave data for areas of interest
 
 
-Ref: https://opensourceoceanweatherbuoy.wordpress.com/
+Refs:
+
+https://opensourceoceanweatherbuoy.wordpress.com/
+
+https://www.thingiverse.com/thing:2070980
 
 ### ROS 
 
