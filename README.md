@@ -46,7 +46,7 @@ Edit this draft into a working diagram in a drawing tool.
 
 What is it? 
 
-It started as a small/cheap 3D printed buoy that could measure wave height and period data on the ocean, and evolved to who else could benefit from small/cheap wave buoys and what would happen if suddenly this technology could be used to network a bunch of these floating buoys together to get high fidelity wave data for areas of interest
+It started as a small/cheap 3D printed buoy that could measure wave height and period data on the ocean, and evolved to who else could benefit from small/cheap wave buoys. What would happen if suddenly this technology could be used to network a bunch of these floating buoys together to get high fidelity wave data for areas of interest? 
 
 We are going to use the buoy as a stationary platform to collect data on site on a long term basis. Placed in a precisely pinpointed location, the buoy will embbed all the instruments available to the project. 
 
