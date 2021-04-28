@@ -40,4 +40,4 @@ jobs:
         id: documents
         uses: Analog-inc/asciidoctor-action@master
         with:
-          shellcommand: "asciidoctor index.adoc"
+          shellcommand: "- asciidoctor-pdf -o documents/question-sociétale.pdf question-sociétale.adoc"
