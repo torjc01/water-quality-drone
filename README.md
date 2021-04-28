@@ -50,6 +50,12 @@ It started as a small/cheap 3D printed buoy that could measure wave height and p
 
 We are going to use the buoy as a stationary platform to collect data on site on a long term basis. Placed in a precisely pinpointed location, the buoy will embbed all the instruments available to the project. 
 
+***Power consumption***
+
+The buoy platform will need current to power the microcontroller, the sensor array, and the communication stack, in case of using one. 
+
+This consumption can be supplied by a set of 2 solar cells, rated at 6V 0.5A, to charge a Li-Ion battery rated at 11.1V and 2000mA/h. From the batteries and using power regulators, we can supply the common 6V, 5V and 3.3V to charge all the devices embarked on the buoy platform. 
+
 Refs:
 
 https://opensourceoceanweatherbuoy.wordpress.com/
