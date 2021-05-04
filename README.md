@@ -26,6 +26,32 @@ A water quality monitoring drone to be deployed on lake surfaces.
 - Oxygen reduction potential (ORP)
 - Clorophyl data (algae)
 
+### Temperature 
+
+### pH
+
+pH defines the acidic and basic nature of water impurity. A pH value is a number from 1 to 14, with 7 as the middle (neutral) point. Values below 7 indicate acidity which increases as the number decreases, 1 being the most acidic. Values above 7 indicate alkalinity which increases as the number increases, 14 being the most alkaline. 
+
+If the water in a stream is too acidic or basic, the H+ or OHion activity may disrupt aquatic organism’s biochemical reactions by either harming or killing the stream organisms.
+
+<p align="center">
+  <img src="images/ph.png" label="ph Scale" />
+  <br>
+  <b>pH Scale</b>
+</p>
+
+## Datasources 
+| Data Source | Interval | Typical reading | Typical range | 
+|------------ | -------- | --------------- | ------------- | 
+| Temperature | Once every 5 minutes | 17,5°C | -25°C to 45°C | 
+| pH | Once every 5 minutes | 7,5 | 6 to 9 | 
+| Turbidity | Once every 5 minutes | 1500/ppm | ? | 
+| Total dissolved solids | Once every 5 minutes | 1500/ppm | ? | 
+| Electroconductivity | Once every 5 minutes | 0.5V | ? | 
+| Dissolved oxygen | Once every 5 minutes | ? | ? | 
+| Oxygen reduction potential | Once every 5 minutes | ? | ? | 
+| Chlorophyl Data| Once every 5 minutes | ? | ? | 
+| Label| Once every 10 minutes | "Normal" | ["Normal", "Abnormal"] | 
 
 ## Brainstorming
 
