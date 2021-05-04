@@ -6,7 +6,20 @@
 
 A water quality monitoring drone to be deployed on lake surfaces.
 
-## Issues to investigate 
+## Brainstorming
+
+### Block diagram 
+
+The block diagram was the result of sessions brainstorming about the possibilities and the requisites analysed for Lake Sergent's needs. 
+
+<p align="center">
+  <img src="images/brainstorming.jpg" label="Brainstorming" width="800"/>
+  <br>
+  <b>Block diagram</b>
+</p>
+
+Edit this draft into a working diagram in a drawing tool.
+### Issues to investigate 
 
 - Sceptic tanks 
 - Boats' gas and oil byproducts 
@@ -26,9 +39,21 @@ A water quality monitoring drone to be deployed on lake surfaces.
 - Oxygen reduction potential (ORP)
 - Clorophyl data (algae)
 
-### Temperature 
+### **Temperature**
+Water temperature is one of the five vital variables of water quality testing. Temperature impacts both the compound and organic attributes of surface water. It controls the rate of metabolic and conceptive processes and consequently aquatic life cycle. Dissolved oxygen level in the water, photosynthesis of aquatic plants, metabolic rates of aquatic organisms and affectability of these organisms to pollution, parasites and disease are the major things influenced by water temperature. 
 
-### pH
+If water temperature increases, decreases or fluctuates, these activities may speed up, slow down or stop. Watertemperature is estimated in Celsius degrees (ºC). Design optimization and implementation of air and water quality monitoring systems are challenges for engineers and researchers for many years.
+
+The LM35 series are precision integrated-circuit temperature sensors, whose output voltage is linearly proportional to the Celsius (Centigrade) temperature, primarily designed for measuring air temperature. Same can be used to measure the temperature of water by following five steps which are used to make it work as a water temperature sensor. 
+
+- Use Cat-5 for the Tether;
+- Solder the LM35;
+- Copper Cladding;
+- Capping the Probe;
+- Silicon Sealant to Waterproof.
+
+
+### **pH**
 
 pH defines the acidic and basic nature of water impurity. A pH value is a number from 1 to 14, with 7 as the middle (neutral) point. Values below 7 indicate acidity which increases as the number decreases, 1 being the most acidic. Values above 7 indicate alkalinity which increases as the number increases, 14 being the most alkaline. 
 
@@ -39,6 +64,39 @@ If the water in a stream is too acidic or basic, the H+ or OHion activity may di
   <br>
   <b>pH Scale</b>
 </p>
+
+pH is a decided esteem in light of a characterized scale, like temperature. This implies pH of water isn’t a physical parameter that can be estimated as a fixation or in an amount. Rather, it is a figure in the vicinity of 0 and 14 characterizing how acidic or basic water is along a logarithmic scale. The lower the number, the more acidic the watr is. A pH of 7 is viewed as neutral. On the off chance that the pH of water is too high or low, sea-going creatures living inside it will die. pH can likewise influence the solubility and toxicity of the chemicals and substantial metals in the water.
+
+pH sensor is constructed using pH indicator paper and color recognition sensor TCS230 (Fig. 3). pH indicator paper is immersed in water and respective color change of the paper is captured using color sensor TCS230. Color sensor is interfaced to microcontroller Arduino Uno. RBG value captured by the sensor is processed using the micro controller and mapped to respective pH value.
+
+### **Turbidity**
+
+Turbidity is an optical characteristic of water. It is an expression of the amount of light that is scattered by material in water when a light is shined through the water sample. High groupings of particulate matter influence light infiltration and efficiency, recreational esteems and quality of natural surroundings. Immoderate turbidity or darkness in drinking water is unappealing and may likewise speak to a health concern.
+
+Turbidity sensor is developed using LED and LDR connected to Arduino Uno. The Light dependent resistor or LDR acts as the sensor that indicates the cloudiness of water. The setup for cloudiness sensing is by positioning light emitting diode or LED at 90 degrees to the LDR. Made from high
+resistance semiconductor, LDR is a variable resistor whose value decreases with increasing incident of light intensity. 
+
+ The measurement circuit of LDR voltage is used to determine the turbidity of water. When the LED illuminates in clear water, the LDR will send low voltage to the analog input of Arduino Uno. In contrary, when murky water flows, the LDR will send Arduino Uno a high voltage instead.
+
+### **TDS Total dissolved solids**
+
+TDS (Total Dissolved Solids) are dissolved organic and inorganic substances in water. The lesser level is better for the drinking. But an average TDS level of drinking water can be 300 - 500 mg/liter. If reading is more than that I suggest you don’t drink that water.
+
+| TDS Level | Rating |
+|------------ | -------- | 
+| < 300 | Excellent  | 
+| < 300 | Good  | 
+| < 300 | Fair  | 
+| < 300 | Poor  | 
+| > 1200 | Unacceptable  | 
+
+TDS Table Chart 
+
+### **EC Electro-conductivity**
+Conductivity characterizes the capacity of water to conduct electricity. This kind of estimation gets to the concentration of ions in a solution. Increasingly the ions higher will be the conductivity. On the off chance that conductivity levels are high, particularly due to dissolved salts,  numerous types of aquatic life are influenced. Skin of animals is dehydrated due to the presence of salts. High concentrations of dissolved solid
+can add a laxative effect to water or cause the water to have an unpleasant mineral taste. It is also possible for dissolved ions to affect the pH of water, which in turn may influence the health of aquatic species.
+
+Conductivity sensor is constructed using nichrome and copper wire, both of which act as electrode. Here, copper wire is taken as reference electrode and nichrome wire gives actual conductivity value. A dismantled disposable pen used, behaves as an insulator between the two wires. Both the wires are soldered to an external wire, which is connected to Arduino Uno. Wires are gum taped such that only one centimeter of them is exposed to water sample. Value thus measured gives conductivity of water sample.
 
 ## Datasources 
 | Data Source | Interval | Typical reading | Typical range | 
@@ -52,20 +110,6 @@ If the water in a stream is too acidic or basic, the H+ or OHion activity may di
 | Oxygen reduction potential | Once every 5 minutes | ? | ? | 
 | Chlorophyl Data| Once every 5 minutes | ? | ? | 
 | Label| Once every 10 minutes | "Normal" | ["Normal", "Abnormal"] | 
-
-## Brainstorming
-
-### Block diagram 
-
-The block diagram was the result of sessions brainstorming about the possibilities and the requisites analysed for Lake Sergent's needs. 
-
-<p align="center">
-  <img src="images/brainstorming.jpg" label="Brainstorming" width="800"/>
-  <br>
-  <b>Block diagram</b>
-</p>
-
-Edit this draft into a working diagram in a drawing tool.
 
 ## Technological platforms 
 ### Ocean Data Buoy Project 
