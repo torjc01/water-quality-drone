@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # Builds the docs
+      - name: Build AsciiDoc step
+        id: documents
+        uses: Analog-inc/asciidoctor-action@master
+        with:
+          shellcommand: "asciidoctor-pdf -o inbdex.pdf index.adoc"
